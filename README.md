@@ -1,5 +1,5 @@
 # Introduction 
-Enable or disable Overlay Filesystem or Write protect Boot partition via CLI
+Enable or disable Overlay Filesystem or Write protect Boot partition via CLI. When deploying a raspberry, via script I wanted to be able to integrate this script into the deployment scripts and avoid corrupted SD-cards. This script uses the code from raspi-config but does not need user interaction for i.e. enabling the overlay fs and write protecting the boot partition. Run the script, reboot, done.
 
 # Getting Started
 1.	Needs root priviliges: use sudo
